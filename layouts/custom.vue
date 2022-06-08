@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-full bg-blue-100">
-    <div class="bg-purple-800 p-6">
+  <div class="w-full h-full bg-blue-100 min-h-screen">
+    <div class="bg-purple-800 min-h-screen">
       <div class="bg-white flex flex-col font-sans">
         <div class="container mx-auto px-8">
           <header
@@ -13,23 +13,33 @@
               <a
                 href="#"
                 class="text-gray-800 hover:text-purple-300 py-3 px-6"
-              >Domů</a>
+              >
+                Domů
+              </a>
               <a
                 href="#"
                 class="text-gray-800 hover:text-purple-300 py-3 px-6"
-              >Služby</a>
+              >
+                Služby
+              </a>
               <a
                 href="#"
                 class="text-gray-800 hover:text-purple-300 py-3 px-6"
-              >O nás</a>
+              >
+                O nás
+              </a>
               <a
                 href="#"
                 class="text-gray-800 hover:text-purple-300 py-3 px-6"
-              >Kontakt</a>
+              >
+                Kontakt
+              </a>
               <a
                 href="#"
                 class="text-gray-800 hover:text-purple-300 py-3 px-6"
-              >FAQ</a>
+              >
+                FAQ
+              </a>
             </nav>
             <button
               class="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5"
@@ -40,7 +50,7 @@
             </button>
           </header>
           <main
-            class="flex flex-col-reverse sm:flex-row jusitfy-between items-center py-12"
+            class="flex flex-col-reverse sm:flex-row jusitfy-between items-center py-12 min-h-screen"
           >
             <div
               class="sm:w-1/2 flex flex-col items-center sm:items-start text-center sm:text-left"
@@ -56,13 +66,17 @@
                 Martin Kopecký
               </h2>
               <p class="text-gray-600 leading-relaxed mb-12">
-                Projekt se zabývá projektovými prácemi v oblasti stavebnictví se zaměřením na vytápění, rozvod plynu a kanalizace.
-                Zpracováváme kompletní soubor projektů TZB včetně průkazu energetické náročnosti budovy PENB.
+                Projekt se zabývá projektovými prácemi v oblasti stavebnictví se
+                zaměřením na vytápění, rozvod plynu a kanalizace. Zpracováváme
+                kompletní soubor projektů TZB včetně průkazu energetické
+                náročnosti budovy PENB.
               </p>
               <a
                 href="#"
                 class="bg-purple-300 hover:bg-purple-400 py-3 px-6 uppercase text-lg font-bold text-white rounded-full"
-              >Learn more</a>
+              >
+                Learn more
+              </a>
             </div>
             <div class="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 sm:pl-12" />
           </main>
