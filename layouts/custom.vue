@@ -1,5 +1,5 @@
 <template>
-  <main class="w-full h-full bg-blue-100 min-h-screen">
+  <main class="w-full h-full bg-white min-h-screen">
     <Navigation />
 
     <Nuxt />
