@@ -1,8 +1,8 @@
 <template>
-  <main class="w-full h-full bg-white min-h-screen">
+  <main class="w-full flex flex-col h-full bg-white min-h-screen">
     <Navigation />
-
     <Nuxt />
+    <Footer />
   </main>
 </template>
 <script lang="ts">

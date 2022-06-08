@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8 bg-white flex flex-col font-sans">
+  <div class="container mx-auto px-8 bg-white flex flex-col grow font-sans">
     <header
       class="flex sm:flex-row"
     >
@@ -31,7 +31,7 @@
       </div>
       <div class="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 sm:pl-12">
         <!-- TODO: download IMG to local filesystem -->
-        <div class="w-3/5 h-1/2 mt-24 ml-[25%] bg-[url('https://cdn-icons.flaticon.com/png/512/3993/premium/3993494.png?token=exp=1654715998~hmac=7dde70f012d9c85d87557f953865bb0b')] bg-contain bg-no-repeat" />
+        <div class="w-3/5 h-3/4 mt-24 ml-[25%] bg-[url('https://cdn-icons.flaticon.com/png/512/3993/premium/3993494.png?token=exp=1654715998~hmac=7dde70f012d9c85d87557f953865bb0b')] bg-contain bg-no-repeat" />
       </div>
     </header>
   </div>
