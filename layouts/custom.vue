@@ -1,5 +1,6 @@
 <template>
-  <main class="w-full flex flex-col h-full bg-white min-h-screen">
+  <main id="mainContent" class="w-full flex flex-col h-full bg-white min-h-screen">
+    <a id="top" />
     <Navigation />
     <Nuxt />
     <Footer />

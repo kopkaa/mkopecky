@@ -10,14 +10,14 @@
       </h3>
       <div class="hidden md:flex text-lg">
         <a
-          href="#"
+          href="#top"
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
           title="Domů"
         >
           Domů
         </a>
         <a
-          href="#"
+          href="#services"
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
           title="Služby"
         >
@@ -28,7 +28,7 @@
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
           title="O nás"
         >
-          O nás
+          Reference
         </a>
         <a
           href="#"
@@ -36,13 +36,6 @@
           title="Kontakt"
         >
           Kontakt
-        </a>
-        <a
-          href="#"
-          class="text-gray-800 hover:text-blue-600 py-3 px-6"
-          title="FAQ"
-        >
-          FAQ
         </a>
       </div>
     </div>

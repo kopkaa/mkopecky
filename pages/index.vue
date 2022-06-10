@@ -1,7 +1,7 @@
 <template>
-  <div class="px-8 bg-white flex flex-col grow font-sans">
+  <div id="landingPage" class="bg-white flex flex-col grow font-sans">
     <header
-      class="container mx-auto flex sm:flex-row h-[calc(100vh-80px)]"
+      class="px-8 container mx-auto flex sm:flex-row h-[calc(100vh-80px)]"
     >
       <div
         class="sm:w-1/2 flex flex-col sm:items-start text-center sm:text-left mt-48"
@@ -34,7 +34,7 @@
         <div class="w-3/5 h-3/4 mt-24 ml-[25%] bg-[url('https://cdn-icons-png.flaticon.com/512/4752/4752773.png')] bg-contain bg-no-repeat" />
       </div>
     </header>
-    <AboutUs />
+    <Services />
   </div>
 </template>
 
