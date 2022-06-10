@@ -2,7 +2,7 @@
   <nav
     class=" py-6"
   >
-    <div class="container px-8 flex flex-col sm:flex-row items-center justify-between mx-auto">
+    <div class="px-8 flex flex-col sm:flex-row items-center justify-between mx-auto">
       <h3 class="text-2xl font-bold uppercase text-blue-900">
         TZB - Martin KOPECKÝ
       </h3>
@@ -22,7 +22,7 @@
           Služby
         </a>
         <a
-          href="#"
+          href="#aboutUs"
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
           title="O nás"
         >

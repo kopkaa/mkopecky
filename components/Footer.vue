@@ -1,5 +1,5 @@
 <template>
-  <footer class="px-8 p-4 bg-blue-100 rounded-lg shadow md:flex md:items-center md:justify-between dark:bg-gray-800">
+  <footer class="px-8 p-4 bg-blue-100  shadow md:flex md:items-center md:justify-between dark:bg-gray-800">
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
       © 2022 <a href="https://flowbite.com" class="hover:underline">Flowbite™</a>. All Rights Reserved.
     </span>
