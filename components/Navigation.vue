@@ -1,6 +1,8 @@
 <template>
   <nav
-    class=" py-6"
+    id="mainNav"
+    class="py-6 bg-white sticky top-0 transition-all"
+    :class="{ 'scrolled': !view.atTopOfPage }"
   >
     <div class="px-8 flex flex-col sm:flex-row items-center justify-between mx-auto">
       <h3 class="text-2xl font-bold uppercase text-blue-900">
@@ -53,3 +55,43 @@
     </button> -->
   </nav>
 </template>
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
+  name: 'Navigation',
+  data () {
+    return {
+      view: {
+        atTopOfPage: true
+      }
+    }
+  },
+  beforeMount () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll () {
+      const nav = document.getElementById('mainNav')
+      if (window.pageYOffset > 0) {
+        // user  scrolled
+        nav?.classList.remove('py-6')
+        if (this.view.atTopOfPage) { this.view.atTopOfPage = false }
+      } else if (!this.view.atTopOfPage) { this.view.atTopOfPage = true }
+    }
+  }
+})
+</script>
+
+<style>
+
+nav {
+    z-index: 10
+}
+
+nav.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+}
+
+</style>
