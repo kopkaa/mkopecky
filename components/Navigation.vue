@@ -76,6 +76,7 @@ export default Vue.extend({
       if (window.pageYOffset > 0) {
         // user  scrolled
         nav?.classList.remove('py-6')
+        nav?.classList.add('py-1')
         if (this.view.atTopOfPage) { this.view.atTopOfPage = false }
       } else if (!this.view.atTopOfPage) { this.view.atTopOfPage = true }
     }
