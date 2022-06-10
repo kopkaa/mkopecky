@@ -4,8 +4,8 @@
     class="py-6 bg-white sticky top-0 transition-all"
     :class="{ 'scrolled': !view.atTopOfPage }"
   >
-    <div class="px-8 flex flex-col sm:flex-row items-center justify-between mx-auto">
-      <h3 class="text-2xl font-bold uppercase text-blue-900">
+    <div class="px-8 flex flex-row items-center justify-between mx-auto">
+      <h3 class="sm:text-2xl font-bold uppercase text-blue-900">
         TZB - Martin KOPECKÝ
       </h3>
       <div class="hidden md:flex text-lg">
@@ -38,14 +38,14 @@
           Kontakt
         </a>
       </div>
+
+      <!-- HAMBURGER MENU -->
+      <div id="hamburgerMenu" class="tham tham-e-squeeze tham-w-6 md:hidden" @click="toggleMenu">
+        <div class="tham-box">
+          <div class="tham-inner" />
+        </div>
+      </div>
     </div>
-    <!-- <button
-      class="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5"
-    >
-      <span class="w-5 h-px mb-1 bg-orange-500" />
-      <span class="w-5 h-px mb-1 bg-orange-500" />
-      <span class="w-5 h-px mb-1 bg-orange-500" />
-    </button> -->
   </nav>
 </template>
 <script lang="ts">
@@ -72,6 +72,11 @@ export default Vue.extend({
         nav?.classList.add('py-1')
         if (this.view.atTopOfPage) { this.view.atTopOfPage = false }
       } else if (!this.view.atTopOfPage) { this.view.atTopOfPage = true }
+    },
+
+    toggleMenu () {
+      const hamburgerMenu = document.getElementById('hamburgerMenu')
+      hamburgerMenu?.classList.toggle('tham-active')
     }
   }
 })

@@ -1,10 +1,10 @@
 <template>
   <div id="landingPage" class="bg-white flex flex-col grow font-sans">
     <header
-      class="px-8 container mx-auto flex sm:flex-row h-[calc(100vh-80px)]"
+      class="px-8 container items-center sm:items-start mx-auto flex sm:flex-row h-[calc(100vh-80px)]"
     >
       <div
-        class="sm:w-1/2 flex flex-col sm:items-start text-center sm:text-left mt-48"
+        class="sm:w-1/2 flex flex-col sm:items-start text-center sm:text-left sm:mt-48"
       >
         <h1
           class="uppercase text-4xl text-blue-900 font-bold leading-none tracking-wide mb-2"

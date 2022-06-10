@@ -35,7 +35,7 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [require('tailwind-hamburgers')],
   content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',

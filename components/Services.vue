@@ -15,24 +15,28 @@
         </h2>
         <div class="flex flex-row mt-8 flex-wrap">
           <div class="font-semibold text-xl basis-1/2">
+            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
             <h3>Chlazení</h3>
             <p class="font-normal text-base mt-2">
               To prevent hot air from taking over choose us for your AC installations
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2">
+            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
             <h3>Vytápění</h3>
             <p class="font-normal text-base mt-2">
               To prevent hot air from taking over choose us for your AC installations
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mt-8">
+            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
             <h3>Klimatizace</h3>
             <p class="font-normal text-base mt-2">
               To prevent hot air from taking over choose us for your AC installations
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mt-8">
+            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
             <h3>Inženýrské sítě a ČOV</h3>
             <p class="font-normal text-base mt-2">
               To prevent hot air from taking over choose us for your AC installations
