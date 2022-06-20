@@ -29,9 +29,8 @@
           Více
         </a>
       </div>
-      <div class="mb-16 sm:mb-0 mt-8 sm:mt-0 sm:w-1/2 sm:pl-12">
-        <!-- TODO: download IMG to local filesystem -->
-        <div class="w-3/5 h-3/4 mt-24 ml-[25%] bg-[url('https://cdn-icons-png.flaticon.com/512/4752/4752773.png')] bg-contain bg-no-repeat" />
+      <div class="mb-16 mb-0 mt-8 mt-0 w-1/2 h-full sm:pl-12">
+        <div class="landing-image" />
       </div>
     </header>
     <Services />
@@ -46,3 +45,11 @@ export default Vue.extend({
   layout: 'custom'
 })
 </script>
+<style>
+.landing-image {
+  @apply w-3/5 h-3/4 mt-24 ml-[25%] bg-contain bg-no-repeat;
+  background-repeat: no-repeat!important;
+  background-size: contain !important;
+  background: url('~assets/landing-image.png');
+}
+</style>

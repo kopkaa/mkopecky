@@ -13,33 +13,33 @@
         <h2 class="font-semibold text-2xl">
           Postaráme se o váš projekt a realizaci technologií TZB pro všechny druhy budov.
         </h2>
-        <div class="flex flex-row mt-8 flex-wrap">
+        <div class="flex flex-row mt-12 flex-wrap">
           <div class="font-semibold text-xl basis-1/2">
-            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
+            <img src="~assets/chlazeni_icon.png" width="35px" class="mb-3" alt="Chlazení ikona">
             <h3>Chlazení</h3>
-            <p class="font-normal text-base mt-2">
-              To prevent hot air from taking over choose us for your AC installations
+            <p class="font-normal text-base mt-2 pr-5">
+              Navrhujeme všechny způsoby vytápění od nízkoteplotních otopných soustav s podlahovým vytápěním, přes klasické otopné soustavy s otopnými tělesy, až po elektrické vytápění pomocí elektrických přímotopů.
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2">
-            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
+            <img src="~assets/vytapeni_icon.png" width="35px" class="mb-3" alt="Vytápění ikona">
             <h3>Vytápění</h3>
             <p class="font-normal text-base mt-2">
-              To prevent hot air from taking over choose us for your AC installations
+              Navrhujeme všechny způsoby vytápění od nízkoteplotních otopných soustav s podlahovým vytápěním, přes klasické otopné soustavy s otopnými tělesy, až po elektrické vytápění pomocí elektrických přímotopů a topných fólií.
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mt-8">
-            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
+            <img src="~assets/air_condition.png" width="35px" class="mb-3" alt="Klimatizace ikona">
             <h3>Klimatizace</h3>
-            <p class="font-normal text-base mt-2">
-              To prevent hot air from taking over choose us for your AC installations
+            <p class="font-normal text-base mt-2 pr-5">
+              Navrhujeme všechny způsoby vytápění od nízkoteplotních otopných soustav s podlahovým vytápěním, přes klasické otopné soustavy s otopnými tělesy, až po elektrické vytápění pomocí elektrických přímotopů a topných fólií.
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mt-8">
-            <img src="https://www.tzb-design.cz/wp-content/uploads/2022/04/shutterstock_431767663-kopie-3.png" width="35px" class="mb-3">
+            <img src="~assets/cov_icon.png" width="35px" class="mb-3" alt="ČOV ikona">
             <h3>Inženýrské sítě a ČOV</h3>
             <p class="font-normal text-base mt-2">
-              To prevent hot air from taking over choose us for your AC installations
+              Navrhujeme všechny způsoby vytápění od nízkoteplotních otopných soustav s podlahovým vytápěním, přes klasické otopné soustavy s otopnými tělesy, až po elektrické vytápění pomocí elektrických přímotopů a topných fólií.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@
     width: 30%;
     height: 75%;
     position: absolute;
-    bottom: -8rem;
+    bottom: 0rem;
     right: 20%;
 }
 </style>
