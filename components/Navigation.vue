@@ -63,6 +63,10 @@ export default Vue.extend({
   beforeMount () {
     window.addEventListener('scroll', this.handleScroll)
   },
+  mounted () {
+    const navHeight = document.getElementById('mainNav')?.offsetHeight
+    document.documentElement.style.setProperty('--scroll-padding', navHeight + 'px')
+  },
   methods: {
     handleScroll () {
       const nav = document.getElementById('mainNav')
