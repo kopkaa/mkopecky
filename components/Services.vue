@@ -52,10 +52,10 @@
 <style scoped>
 .img-second {
     object-fit: cover;
-    width: 30%;
-    height: 75%;
+    width: 35%;
+    height: 55%;
     position: absolute;
-    bottom: 0rem;
+    bottom: 4rem;
     right: 20%;
 }
 </style>
