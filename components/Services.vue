@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen  pt-4">
+  <section class="min-h-screen pt-4 pb-16">
     <h1 id="aboutUs" class="uppercase text-4xl font-semibold text-center">
       Naše služby
     </h1>
@@ -40,7 +40,7 @@
             <img src="~assets/cov_icon.png" width="35px" class="mb-3" alt="ČOV ikona">
             <h3>Inženýrské sítě a ČOV</h3>
             <p class="font-normal text-base mt-2">
-              Dokážeme udělat návrh vodovodu a kanalizace, řešení likvidace dešťových a splaškových vod. Umíme navrhnout likvidaci dešťových vod vsakem, nebo řízeným odtokem, využití dešťových vod pro závlahu nebo i splachování WC. Pokud je to zapotřebí, tak navrhujeme i čističky odpadních vod k rodinným domům.
+              Dokážeme udělat návrh vodovodu a kanalizace, řešení likvidace dešťových a splaškových vod. Umíme navrhnout likvidaci dešťových vod vsakem, nebo řízeným odtokem. Pokud je to zapotřebí, tak navrhujeme i čističky odpadních vod k rodinným domům.
             </p>
           </div>
         </div>

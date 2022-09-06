@@ -14,7 +14,7 @@
         <h2
           class="uppercase text-2xl text-orange-500 text-secondary tracking-widest mb-6"
         >
-          Martin Kopecký
+          PROJEKT KOPECKÝ s.r.o
         </h2>
         <p class="text-gray-600 leading-relaxed mb-12">
           Projekt se zabývá projektovými prácemi v oblasti stavebnictví se

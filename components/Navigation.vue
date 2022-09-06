@@ -6,7 +6,7 @@
   >
     <div class="px-8 flex flex-row items-center justify-between mx-auto">
       <h3 class="sm:text-2xl font-bold uppercase text-blue-900">
-        TZB - Martin KOPECKÝ
+        TZB PROJEKT KOPECKÝ s.r.o
       </h3>
       <div class="hidden md:flex text-lg">
         <a
