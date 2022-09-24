@@ -11,6 +11,7 @@
         "lint:prettier": "prettier --check .",
         "lint": "yarn lint:js && yarn lint:prettier",
         "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
+        "dev:host": "nuxt --hostname 0.0.0.0 --port 80",
         "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
     },
     "dependencies": {
