@@ -31,7 +31,7 @@
           Reference
         </a>
         <a
-          href="#"
+          href="#contact"
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
           title="Kontakt"
         >

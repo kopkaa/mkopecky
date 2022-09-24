@@ -1,6 +1,6 @@
 <template>
   <section class="min-h-screen pt-4 pb-16">
-    <h1 id="aboutUs" class="uppercase text-4xl font-semibold text-center">
+    <h1 id="services" class="uppercase text-4xl font-semibold text-center">
       Naše služby
     </h1>
     <div class="flex flex-row mt-32">

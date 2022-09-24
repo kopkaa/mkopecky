@@ -2,7 +2,7 @@
   <footer
     class="pt-40 bg-blue-100 text-white shadow  dark:bg-gray-800"
   >
-    <div class="md:flex md:items-start md:justify-between px-64">
+    <div id="contact" class="md:flex md:items-start md:justify-between px-64">
       <div class="basis-1/3 text-left">
         <h2 class="font-bold text-4xl tracking-wide mb-8">
           Ozvěte se nám!
@@ -34,7 +34,7 @@
             </span>
           </a>
         </h3>
-        <h3 class="mt-4">
+        <h3 class="mt-4 flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="inline mr-2"
