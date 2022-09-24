@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/mkopecky/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'mkopecky',
@@ -24,7 +28,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/main.css',
+    '@/assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -40,12 +44,12 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-webfontloader',
+    'nuxt-webfontloader'
   ],
 
   webfontloader: {
@@ -59,8 +63,8 @@ export default {
     postcss: {
       plugins: {
         tailwindcss: {},
-        autoprefixer: {},
-      },
-    },
+        autoprefixer: {}
+      }
+    }
   }
 }

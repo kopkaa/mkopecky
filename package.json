@@ -10,7 +10,8 @@
         "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
         "lint:prettier": "prettier --check .",
         "lint": "yarn lint:js && yarn lint:prettier",
-        "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
+        "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
     },
     "dependencies": {
         "core-js": "^3.19.3",
@@ -38,6 +39,7 @@
         "nuxt-webfontloader": "^1.1.0",
         "postcss": "^8.4.14",
         "prettier": "^2.5.1",
+        "push-dir": "^0.4.1",
         "tailwindcss": "^3.0.24"
     }
 }
