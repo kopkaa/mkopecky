@@ -11,7 +11,7 @@
         "lint:prettier": "prettier --check .",
         "lint": "yarn lint:js && yarn lint:prettier",
         "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
-        "deploy": "push-dir --dir=dist --branch=master"
+        "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
     },
     "dependencies": {
         "core-js": "^3.19.3",
