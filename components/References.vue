@@ -1,7 +1,7 @@
 <template>
-  <section class="min-h-screen pt-4 pb-16 bg-blue-100">
-    <h1 id="services" class="uppercase text-4xl font-semibold text-center">
-      Naše služby
+  <section class="min-h-screen pt-4 pb-16">
+    <h1 id="references" class="uppercase text-4xl font-semibold text-center">
+      Reference
     </h1>
     <div class="flex-col-reverse flex mt-16 sm:flex-row sm:mt-32">
       <div class="flex-1 pr-16 relative">

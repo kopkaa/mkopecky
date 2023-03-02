@@ -5,7 +5,7 @@
     :class="{ 'scrolled': !view.atTopOfPage }"
   >
     <div class="px-8 flex flex-row items-center justify-between mx-auto">
-      <h3 class="sm:text-2xl font-bold uppercase text-blue-900">
+      <h3 class="sm:text-xl font-bold uppercase text-blue-900">
         TZB PROJEKT KOPECKÝ s.r.o
       </h3>
       <div class="hidden md:flex text-lg">
@@ -24,9 +24,9 @@
           Služby
         </a>
         <a
-          href="#aboutUs"
+          href="#references"
           class="text-gray-800 hover:text-blue-600 py-3 px-6"
-          title="O nás"
+          title="Reference"
         >
           Reference
         </a>
