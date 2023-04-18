@@ -116,7 +116,7 @@
       <p>
         © {{ currentYear }} TZB PROJEKT KOPECKÝ s.r.o
       </p>
-      <p>IČO: 11111</p>
+      <p>IČO: 17128048</p>
     </div>
   </footer>
 </template>
