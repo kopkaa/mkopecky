@@ -1,6 +1,6 @@
 <template>
-  <section class="min-h-screen pt-4 pb-16 bg-blue-100">
-    <h1 id="services" class="uppercase text-4xl font-semibold text-center text-white">
+  <section class="min-h-screen pt-4 pb-16">
+    <h1 id="services" class="uppercase text-4xl font-semibold text-center text-black">
       Naše služby
     </h1>
     <div class="flex-col-reverse flex mt-16 sm:flex-row sm:mt-32">
@@ -10,13 +10,13 @@
         <img src="~assets/second-img.jpg" class="img-second">
       </div>
       <div class="flex-1 pr-8 pl-8">
-        <h2 class="font-semibold text-2xl text-center sm:text-left text-white">
+        <h2 class="font-semibold text-2xl text-center sm:text-left text-black">
           Postaráme se o váš projekt a realizaci technologií TZB pro všechny druhy budov.
         </h2>
         <div class="flex flex-col sm:flex-row mt-12 flex-wrap">
           <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6">
-            <img src="~assets/chlazeni_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3 brightness-[3]" alt="Chlazení ikona">
-            <h3 class="text-white">
+            <img src="~assets/chlazeni_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Chlazení ikona">
+            <h3 class="text-black">
               Chlazení
             </h3>
             <p class="font-normal text-lg mt-6 pr-5">
@@ -25,8 +25,8 @@
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6">
-            <img src="~assets/vytapeni_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3 brightness-[3]" alt="Vytápění ikona">
-            <h3 class="text-white">
+            <img src="~assets/vytapeni_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Vytápění ikona">
+            <h3 class="text-black">
               Vytápění
             </h3>
             <p class="font-normal text-lg mt-6">
@@ -34,8 +34,8 @@
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6 sm:mt-8">
-            <img src="~assets/air_condition-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3 brightness-[3]" alt="Klimatizace ikona">
-            <h3 class="text-white">
+            <img src="~assets/air_condition-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Klimatizace ikona">
+            <h3 class="text-black">
               Klimatizace
             </h3>
             <p class="font-normal text-lg mt-6 pr-5">
@@ -43,8 +43,8 @@
             </p>
           </div>
           <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6 sm:mt-8">
-            <img src="~assets/cov_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3 brightness-[3]" alt="ČOV ikona">
-            <h3 class="text-white">
+            <img src="~assets/cov_icon-removebg-preview.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="ČOV ikona">
+            <h3 class="text-black">
               Inženýrské sítě a ČOV
             </h3>
             <p class="font-normal text-lg mt-6">

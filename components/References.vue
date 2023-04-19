@@ -1,54 +1,76 @@
 <template>
-  <section class="min-h-screen pt-4 pb-16">
-    <h1 id="references" class="uppercase text-4xl font-semibold text-center">
+  <section class="pt-4 pb-16 pl-24 pr-24">
+    <h1 id="references" class="uppercase text-4xl font-semibold text-center mb-12">
       Reference
     </h1>
-    <div class="flex-col-reverse flex mt-16 sm:flex-row sm:mt-32">
-      <div class="flex-1 pr-16 relative">
-        <!-- TODO: Serve images in webp -->
-        <img src="~assets/third-img.jpg" class="grayscale-[30%]">
-        <img src="~assets/second-img.jpg" class="img-second">
-      </div>
-      <div class="flex-1 pr-8 pl-8">
-        <h2 class="font-semibold text-2xl text-center sm:text-left">
-          Postaráme se o váš projekt a realizaci technologií TZB pro všechny druhy budov.
-        </h2>
-        <div class="flex flex-col sm:flex-row mt-12 flex-wrap">
-          <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6">
-            <img src="~assets/chlazeni_icon.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Chlazení ikona">
-            <h3>Chlazení</h3>
-            <p class="font-normal text-base mt-6 pr-5">
-              Projektujeme různé systémy chlazení od běžných chladivových systémů.
-              Zdrojem chladu mohou být venkovní chladící jednotky, tepelná čerpadla, chladící stroje a další zařízení. U tepelných čerpadel země-voda můžeme navrhnout pasivní chlazení.
-            </p>
-          </div>
-          <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6">
-            <img src="~assets/vytapeni_icon.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Vytápění ikona">
-            <h3>Vytápění</h3>
-            <p class="font-normal text-base mt-6">
-              Navrhujeme všechny způsoby vytápění od nízkoteplotních otopných soustav s podlahovým vytápěním, přes klasické otopné soustavy s otopnými tělesy, až po elektrické vytápění pomocí elektrických přímotopů a topných fólií.
-            </p>
-          </div>
-          <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6 sm:mt-8">
-            <img src="~assets/air_condition.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="Klimatizace ikona">
-            <h3>Klimatizace</h3>
-            <p class="font-normal text-base mt-6 pr-5">
-              Můžeme nabídnout návrh vzduchotechniky pro rodinné domy, bytové domy, obchodní centra nebo administrativní objekty.
-            </p>
-          </div>
-          <div class="font-semibold text-xl basis-1/2 mb-16 sm:mb-6 sm:mt-8">
-            <img src="~assets/cov_icon.png" width="35px" class="mb-3 float-left sm:float-none mr-3" alt="ČOV ikona">
-            <h3>Inženýrské sítě a ČOV</h3>
-            <p class="font-normal text-base mt-6">
-              Dokážeme udělat návrh vodovodu a kanalizace, řešení likvidace dešťových a splaškových vod. Umíme navrhnout likvidaci dešťových vod vsakem, nebo řízeným odtokem. Pokud je to zapotřebí, tak navrhujeme i čističky odpadních vod k rodinným domům.
-            </p>
-          </div>
+    <div class="container my-12 mx-auto px-4 md:px-12">
+      <div class="flex flex-wrap -mx-1 lg:-mx-4">
+        <!-- Column -->
+        <div v-for="(reference, index) in references" :key="index" class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          <!-- Article -->
+          <article class="overflow-hidden rounded-lg shadow-lg">
+            <img
+              class="w-full h-72 object-cover"
+              :src="reference.imgUrl"
+              loading="lazy"
+              alt="{&quot;&quot;}"
+            >
+
+            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
+              <h1 class="text-lg">
+                {{ reference.name }}
+              </h1>
+            </header>
+
+            <!-- <a href="#">
+              <img alt="Placeholder" class="block h-auto w-full" :src="reference.imgUrl">
+            </a> -->
+            <!--
+ -->
+
+            <footer class="flex items-center justify-between leading-none p-2 md:p-2">
+              <p class="ml-2 text-sm">
+                Kompletní rekonstrukce TZB pro suterény, kuchyni a restaurace, lobby.
+              </p>
+            </footer>
+          </article>
+          <!-- END Article -->
         </div>
+        <!-- END Column -->
       </div>
     </div>
   </section>
 </template>
 
+<script lang="ts">
+import Vue from 'vue'
+import vega2 from '~/assets/reference/vega/2.jpg'
+import mb1 from '~/assets/reference/mb/1.jpg'
+import zss1 from '~/assets/reference/sumice/1.jpg'
+export default Vue.extend({
+  name: 'References',
+  data () {
+    return {
+      references: [
+        {
+          imgUrl: vega2,
+          name: 'Hotel Vega'
+        },
+        {
+          imgUrl: mb1,
+          name: 'Kulturní dům Malá Bystřice'
+        },
+        {
+          imgUrl: zss1,
+          name: 'ZŠ Šumice'
+        }
+
+      ]
+    }
+  }
+})
+
+</script>
 <style scoped>
 .img-second {
     object-fit: cover;
