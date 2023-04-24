@@ -47,6 +47,7 @@ export default Vue.extend({
   layout: 'custom',
   mounted () {
     const fadeOutElement = document.querySelector('.fade-out')
+    if (!fadeOutElement) { return }
     window.addEventListener('scroll', function () {
       if (window.pageYOffset > 1) {
         fadeOutElement.classList.add('fade-out-hidden')

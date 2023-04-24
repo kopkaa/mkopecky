@@ -55,37 +55,36 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import mb1 from '~/assets/reference/mb/1.jpg'
-import mb2 from '~/assets/reference/mb/2.jpg'
-import mb3 from '~/assets/reference/mb/3.jpg'
+const mb1 = require('@/assets/reference/mb/1.jpg');
+const mb2 = require('@/assets/reference/mb/2.jpg');
+const mb3 = require('@/assets/reference/mb/3.jpg');
 
-import vega2 from '~/assets/reference/vega/4.jpg'
-import vega3 from '~/assets/reference/vega/5.jpg'
-import vega4 from '~/assets/reference/vega/3.jpg'
-import vega5 from '~/assets/reference/vega/6.jpg'
+const vega2 = require('@/assets/reference/vega/4.jpg');
+const vega3 = require('@/assets/reference/vega/5.jpg');
+const vega4 = require('@/assets/reference/vega/3.jpg');
+const vega5 = require('@/assets/reference/vega/6.jpg');
 
-import zss1 from '~/assets/reference/sumice/1.jpg'
-import zss2 from '~/assets/reference/sumice/2.jpg'
-import zss3 from '~/assets/reference/sumice/3.jpg'
-import zss4 from '~/assets/reference/sumice/4.jpg'
-import zss5 from '~/assets/reference/sumice/5.jpg'
+const zss1 = require('@/assets/reference/sumice/1.jpg');
+const zss2 = require('@/assets/reference/sumice/2.jpg');
+const zss3 = require('@/assets/reference/sumice/3.jpg');
+const zss4 = require('@/assets/reference/sumice/4.jpg');
+const zss5 = require('@/assets/reference/sumice/5.jpg');
 
-import oc1 from '~/assets/reference/oc-letna/1.jpg'
-import oc2 from '~/assets/reference/oc-letna/2.jpg'
-import oc3 from '~/assets/reference/oc-letna/3.jpg'
-import oc4 from '~/assets/reference/oc-letna/4.jpg'
+const oc1 = require('@/assets/reference/oc-letna/1.jpg');
+const oc2 = require('@/assets/reference/oc-letna/2.jpg');
+const oc3 = require('@/assets/reference/oc-letna/3.jpg');
+const oc4 = require('@/assets/reference/oc-letna/4.jpg');
 
-import k1 from '~/assets/reference/areal-karolinka/1.jpg'
-import k2 from '~/assets/reference/areal-karolinka/5.jpg'
-import k3 from '~/assets/reference/areal-karolinka/6.jpg'
-import k4 from '~/assets/reference/areal-karolinka/8.jpg'
+const k1 = require('@/assets/reference/areal-karolinka/1.jpg');
+const k2 = require('@/assets/reference/areal-karolinka/5.jpg');
+const k3 = require('@/assets/reference/areal-karolinka/6.jpg');
+const k4 = require('@/assets/reference/areal-karolinka/8.jpg');
 
-
-import s1 from '~/assets/reference/senegal/1.jpg'
-import s2 from '~/assets/reference/senegal/2.jpg'
-import s3 from '~/assets/reference/senegal/6.jpg'
-import s4 from '~/assets/reference/senegal/7.jpg'
-import s5 from '~/assets/reference/senegal/8.jpg'
+const s1 = require('@/assets/reference/senegal/1.jpg');
+const s2 = require('@/assets/reference/senegal/2.jpg');
+const s3 = require('@/assets/reference/senegal/6.jpg');
+const s4 = require('@/assets/reference/senegal/7.jpg');
+const s5 = require('@/assets/reference/senegal/8.jpg');
 
 
 interface IReference{
