@@ -32,7 +32,7 @@
       <div class="hidden md:block mb-16 mb-0 mt-8 mt-0 w-1/2 h-3/5 sm:pl-12">
         <div class="landing-image" />
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4084C1" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,234.7C384,235,480,245,576,229.3C672,213,768,171,864,160C960,149,1056,171,1152,186.7C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" /></svg>
+      <svg class="fade-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4084C1" fill-opacity="1" d="M0,256L48,250.7C96,245,192,235,288,234.7C384,235,480,245,576,229.3C672,213,768,171,864,160C960,149,1056,171,1152,186.7C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" /></svg>
     </header>
     <Services />
     <References />
@@ -44,7 +44,17 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'IndexPage',
-  layout: 'custom'
+  layout: 'custom',
+  mounted () {
+    const fadeOutElement = document.querySelector('.fade-out')
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 1) {
+        fadeOutElement.classList.add('fade-out-hidden')
+      } else {
+        fadeOutElement.classList.remove('fade-out-hidden')
+      }
+    })
+  }
 })
 </script>
 <style>
@@ -53,5 +63,14 @@ export default Vue.extend({
   background-repeat: no-repeat!important;
   background-size: contain !important;
   background: url('~assets/landing-image.png');
+}
+
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-out.fade-out-hidden {
+  opacity: 0;
 }
 </style>

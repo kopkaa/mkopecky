@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen pt-4 pb-16">
+  <section class="min-h-screen pt-12 pb-16">
     <h1 id="services" class="uppercase text-4xl font-semibold text-center text-black">
       Naše služby
     </h1>
